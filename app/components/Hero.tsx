@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Hero = () => {
   return (
@@ -22,19 +21,19 @@ const Hero = () => {
             >
               Order Now
             </Link>
-            <a
+            <Link
               href="#products"
               className="px-6 py-3 rounded-xl border border-durai-dark text-durai-dark font-semibold"
             >
               See Products
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Right */}
         <div className="flex-1">
           <Image
-            src="/kaido.jpg"
+            src="/homefish.jpg"
             alt="Fresh catfish"
             className="w-full h-80 object-cover rounded-2xl shadow-lg"
             width={300}

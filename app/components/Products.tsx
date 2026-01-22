@@ -12,19 +12,19 @@ const products: Product[] = [
     title: "Live Catfish",
     description: "Fresh and healthy live catfish delivered directly to you.",
     image: "/livefish1.jpeg",
-    link: "/order?product=live",
+    link: "/contact",
   },
   {
     title: "Smoked Catfish",
     description: "Rich smoky flavor, perfect for soups and stews.",
     image: "/livefish2.jpeg",
-    link: "/order?product=smoked",
+    link: "/contact",
   },
   {
     title: "Barbeque Catfish",
     description: "Grilled to perfection with a juicy and tender finish.",
     image: "/barbeque1.webp",
-    link: "/order?product=bbq",
+    link: "/contact",
   },
 ];
 

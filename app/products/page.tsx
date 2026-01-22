@@ -62,7 +62,7 @@ export default function ProductsPage() {
               </div>
 
               <div className="md:w-1/2">
-                <h2 className="text-3xl font-bold text-durai-dark">
+                <h2 className="text-3xl font-bold text-white/80">
                   {product.name}
                 </h2>
                 <p className="mt-4 text-durai-text">{product.description}</p>
@@ -74,7 +74,7 @@ export default function ProductsPage() {
                 </ul>
 
                 <Link
-                  href={`/order?product=${product.name}`}
+                  href={`/contact`}
                   className="inline-block mt-6 px-8 py-4 bg-durai-dark text-white rounded-xl font-semibold"
                 >
                   Order via WhatsApp

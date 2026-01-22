@@ -11,7 +11,7 @@ const CTA = () => {
         </p>
 
         <Link
-          href="/order"
+          href="/contact"
           className="inline-block mt-6 px-8 py-4 bg-durai-fresh text-durai-light hover:text-durai-fresh font-bold rounded-xl"
         >
           Order Now
