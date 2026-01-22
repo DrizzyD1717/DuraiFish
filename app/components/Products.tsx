@@ -23,7 +23,7 @@ const products: Product[] = [
   {
     title: "Barbeque Catfish",
     description: "Grilled to perfection with a juicy and tender finish.",
-    image: "/livefish1.jpeg",
+    image: "/barbeque1.webp",
     link: "/order?product=bbq",
   },
 ];
