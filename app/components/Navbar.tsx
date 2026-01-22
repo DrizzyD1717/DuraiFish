@@ -25,12 +25,7 @@ const Navbar = () => {
           >
             Products
           </Link>
-          <Link href="/order" className="text-durai-text hover:text-durai-dark">
-            Order
-          </Link>
-          <Link href="/about" className="text-durai-text hover:text-durai-dark">
-            About
-          </Link>
+
           <Link
             href="/contact"
             className="text-durai-text hover:text-durai-dark"
@@ -67,12 +62,7 @@ const Navbar = () => {
           <Link href="/products" className="block px-6 py-3 border-b">
             Products
           </Link>
-          <Link href="/order" className="block px-6 py-3 border-b">
-            Order
-          </Link>
-          <Link href="/about" className="block px-6 py-3 border-b">
-            About
-          </Link>
+
           <Link href="/contact" className="block px-6 py-3">
             Contact
           </Link>

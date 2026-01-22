@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -15,12 +16,12 @@ const Hero = () => {
           </p>
 
           <div className="mt-6 flex gap-4">
-            <a
-              href="/order"
+            <Link
+              href="https://wa.me/234XXXXXXXXXX"
               className="px-6 py-3 rounded-xl bg-durai-dark text-white font-semibold"
             >
               Order Now
-            </a>
+            </Link>
             <a
               href="#products"
               className="px-6 py-3 rounded-xl border border-durai-dark text-durai-dark font-semibold"
